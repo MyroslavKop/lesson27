@@ -1,4 +1,3 @@
-import * as React from "react";
 import Header from "./components/Header";
 import Form from "./components/form/Form";
 import Container from "@mui/material/Container";
@@ -10,7 +9,7 @@ function App() {
     return (
         <>
             <Container maxWidth="xl">
-                <Box sx={{width: "100%", maxWidth: 685}}>
+                <Box sx={{maxWidth: 685}}>
                     <Header/>
                     <Form/>
                 </Box>

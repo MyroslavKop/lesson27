@@ -1,4 +1,3 @@
-import * as React from "react";
 import PropTypes from "prop-types";
 import {Controller} from "react-hook-form";
 import {LocalizationProvider} from "@mui/x-date-pickers/LocalizationProvider";
